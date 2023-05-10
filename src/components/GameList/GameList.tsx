@@ -86,4 +86,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default GameList;
+export default React.memo(GameList);

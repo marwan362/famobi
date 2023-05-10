@@ -103,4 +103,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Filter;
+export default React.memo(Filter);
