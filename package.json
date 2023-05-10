@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "build": "npm install --save && cd ios && pod install",
+    "build": "npm install --save && cd ios && pod install && cd ..",
     "grouping": "node grouping.js"
   },
   "dependencies": {
